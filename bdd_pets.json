@@ -1,0 +1,338 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombre": "admin_vet",
+      "apellido": "admin_vet",
+      "pass": "49f911d85835abf97932b0c00a0231c72655c6581d3686e71599fdb7fc19ff90",
+      "email": "admin_vet@gmail.com",
+      "tipo_usuario": 1,
+      "devices": [
+        1,
+        3
+      ],
+      "img": "https://www.pngfind.com/pngs/m/93-938050_png-file-transparent-white-user-icon-png-download.png"
+    },
+    {
+      "id": 2,
+      "nombre": "admin_usr",
+      "apellido": "admin_usr",
+      "pass": "49f911d85835abf97932b0c00a0231c72655c6581d3686e71599fdb7fc19ff90",
+      "email": "admin_usr@gmail.com",
+      "tipo_usuario": 2,
+      "devices": [
+        1,
+        2
+      ],
+      "img": "img/user_app.png"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": [
+        1
+      ],
+      "geoloc": [
+        -34.899365,
+        -57.95561
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": [
+        1
+      ],
+      "geoloc": [
+        -34.885259,
+        -57.97066
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 6,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 7,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 8,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 9,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 10,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 11,
+      "nombre": null,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    }
+  ],
+  "vet_records": [
+    {
+      "nombre": "Drama",
+      "id": 1
+    },
+    {
+      "nombre": "Comedia",
+      "id": 2
+    },
+    {
+      "nombre": "Documental",
+      "id": 3
+    },
+    {
+      "nombre": "Acción",
+      "id": 4
+    }
+  ],
+  "calendar": [
+    {
+      "id": 1,
+      "nombre": "Drama",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Acción",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 4
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "nombre": "Drama",
+      "type_id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "type_id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "type_id": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Acción",
+      "type_id": 4
+    },
+    {
+      "id": 5,
+      "nombre": "Drama-+",
+      "type_id": "1"
+    }
+  ],
+  "type_notifications": [
+    {
+      "id": 1,
+      "nombre": "Cita con Veterinario"
+    },
+    {
+      "id": 2,
+      "nombre": "Calendario Vacunacion"
+    },
+    {
+      "id": 3,
+      "nombre": "Calendario Desparacitacion"
+    },
+    {
+      "id": 4,
+      "nombre": "Turno Con Veterinario"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "nombre": "Drama",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Acción",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 4
+    }
+  ],
+  "type_format": [
+    {
+      "id": 1,
+      "nombre": ".png"
+    },
+    {
+      "id": 2,
+      "nombre": ".jpg"
+    },
+    {
+      "id": 3,
+      "nombre": ".pdf"
+    },
+    {
+      "id": 4,
+      "nombre": ".txt"
+    }
+  ],
+  "user_type": [
+    {
+      "id": 1,
+      "nombre": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "user"
+    },
+    {
+      "id": 3,
+      "nombre": "user_vet"
+    }
+  ],
+  "device_type": [
+    {
+      "id": 1,
+      "nombre": "TAGG"
+    },
+    {
+      "id": 2,
+      "nombre": "GPS"
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "nombre": "Mora",
+      "id_device": 1,
+      "imgs": "img/uploads/mora.png",
+      "id_user": 1,
+      "pet_info": "[{'nombre': 'Mora', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
+    },
+    {
+      "id": 2,
+      "nombre": "Lee",
+      "id_device": 2,
+      "imgs": "img/uploads/lee.png",
+      "id_user": 1,
+      "pet_info": "[{'nombre': 'Lee', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
+    },
+    {
+      "id": 3,
+      "nombre": "Lara",
+      "id_device": 3,
+      "imgs": "img/pet_dog_profile.png",
+      "id_user": 2,
+      "pet_info": "[{'nombre': 'Lara', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
+    },
+    {
+      "id": 4,
+      "nombre": "Uma",
+      "id_device": 4,
+      "imgs": "img/pet_dog_profile.png",
+      "id_user": 2,
+      "pet_info": "[{'nombre': 'Uma', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
+    }
+  ]
+}
