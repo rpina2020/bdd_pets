@@ -134,16 +134,6 @@
       "nombre": "user_vet"
     }
   ],
-  "device_type": [
-    {
-      "id": 1,
-      "nombre": "TAGG"
-    },
-    {
-      "id": 2,
-      "nombre": "GPS"
-    }
-  ],
   "pets": [
     {
       "id": 1,
