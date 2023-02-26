@@ -120,6 +120,163 @@
       "id": 14
     }
   ],
+  "vet_records": [
+    {
+      "nombre": "Drama",
+      "id": 1
+    },
+    {
+      "nombre": "Comedia",
+      "id": 2
+    },
+    {
+      "nombre": "Documental",
+      "id": 3
+    },
+    {
+      "nombre": "Acción",
+      "id": 4
+    }
+  ],
+  "calendar": [
+    {
+      "id": 1,
+      "nombre": "Drama",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Acción",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 4
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "nombre": "Drama",
+      "type_id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "type_id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "type_id": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Acción",
+      "type_id": 4
+    },
+    {
+      "id": 5,
+      "nombre": "Drama-+",
+      "type_id": "1"
+    }
+  ],
+  "type_notifications": [
+    {
+      "id": 1,
+      "nombre": "Cita con Veterinario"
+    },
+    {
+      "id": 2,
+      "nombre": "Calendario Vacunacion"
+    },
+    {
+      "id": 3,
+      "nombre": "Calendario Desparacitacion"
+    },
+    {
+      "id": 4,
+      "nombre": "Turno Con Veterinario"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "nombre": "Drama",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Acción",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 4
+    }
+  ],
+  "type_format": [
+    {
+      "id": 1,
+      "nombre": ".png"
+    },
+    {
+      "id": 2,
+      "nombre": ".jpg"
+    },
+    {
+      "id": 3,
+      "nombre": ".pdf"
+    },
+    {
+      "id": 4,
+      "nombre": ".txt"
+    }
+  ],
   "user_type": [
     {
       "id": 1,
@@ -132,6 +289,16 @@
     {
       "id": 3,
       "nombre": "user_vet"
+    }
+  ],
+  "device_type": [
+    {
+      "id": 1,
+      "nombre": "TAGG"
+    },
+    {
+      "id": 2,
+      "nombre": "GPS"
     }
   ],
   "pets": [
