@@ -125,7 +125,7 @@
       "id": 1,
       "nombre": "Mora",
       "id_device": 1,
-      "imgs": "img/uploads/mora.png",
+      "imgs": "img/uploads/mora.PNG",
       "id_user": 1,
       "pet_info": "[{'nombre': 'Mora', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
     },
@@ -133,7 +133,7 @@
       "id": 2,
       "nombre": "Lee",
       "id_device": 2,
-      "imgs": "img/uploads/lee.png",
+      "imgs": "img/uploads/lee.PNG",
       "id_user": 1,
       "pet_info": "[{'nombre': 'Lee', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
     },
